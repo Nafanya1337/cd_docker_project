@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 
 def get_message():
-    return "Hello, Continuous Deployment!"
+    return "Hello, Continuous Deployment v2!"
 
 
 @app.route("/")
