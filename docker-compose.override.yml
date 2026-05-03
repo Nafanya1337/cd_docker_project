@@ -1,0 +1,4 @@
+services:
+  web:
+    build: .
+    image: cd-docker-project:local
