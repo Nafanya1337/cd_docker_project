@@ -65,7 +65,7 @@ jobs:
           host: ${{ secrets.SERVER_HOST }}
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: "docker-compose.yml,k8s/*"
+          source: "docker-compose.yml,k8s/*,monitoring/*"
           target: "~/cd_docker_project"
 
       - name: Deploy to server via SSH
